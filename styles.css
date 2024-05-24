@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    outline: none;
+}
+
+
+img {
+    height: 25px;
+
+}
+
+
+
+.container {
+    background-color: #d1d1d1;
+    /* Cor do fundo da DIV */
+    width: 500px;
+    border-radius: 10px;
+    /* Deixa as pontas mais arredondas do fundo*/
+    padding: 20px;
+    /* Espaçamento dos itens dentro da DIV */
+    margin: 100px auto 0;
+    /* isso é igual margin-left: auto; margin-right: auto; margin-top: 100px; */
+
+}
+
+.input-task {
+    border: none;
+    border-radius: 30px;
+    width: 350px;
+    height: 40px;
+    padding-left: 25px;
+    /* afasta a barra de digitar da borda*/
+
+}
+
+.button-add-task {
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.button-add-task:hover{
+    opacity: 0.8;
+}
+
+.button-add-task:active{
+    opacity: 0.6;
+}
+
+.list-task{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.task{
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgb(0,0,0, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.input-QTD{
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body {
+    background: url("./img/background.png");
+}
